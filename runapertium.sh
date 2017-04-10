@@ -1,0 +1,1 @@
+./apertium-apy/servlet.py -p 4897 /usr/share/apertium
