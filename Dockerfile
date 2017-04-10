@@ -1,5 +1,8 @@
 FROM  phusion/baseimage:0.9.19
 
+ENV http_proxy http://165.225.104.34:80
+ENV https_proxy https://165.225.104.34:80
+
 RUN apt-get -y update
 
 RUN DEBIAN_FRONTEND=noninteractive apt-get install -y -q python-software-properties software-properties-common
